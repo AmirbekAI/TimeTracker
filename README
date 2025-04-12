@@ -1,0 +1,55 @@
+📘 About This Project
+Recently, I felt like I wasn’t working as much as I could—and I wanted to change that. But as the saying goes:
+
+"You can’t improve what you don’t measure."
+
+So I set out to find a way to track my work hours and get a visual overview of my productivity.
+
+Building a full-fledged app would take too long, and existing tools were either overkill or too expensive. That’s why I created this simple, effective time-tracking tool.
+
+⚙️ How It Works
+You can create keyboard shortcuts (explained in the create_shortcuts.md file).
+
+When you start working, just hit your shortcut to begin tracking.
+
+Press your stop shortcut when you're done.
+
+The time data gets saved and automatically added to your Google Calendar.
+
+At the end of the day, you'll be able to visually see how much you've worked—right in your calendar.
+
+✨ Why I Love It
+It’s lightweight, fast, and super effective.
+Give it a try and let me know how it works for you.
+Enjoy! 😄
+
+# Time Tracker
+
+A Python application for tracking your time and integrating with Google Calendar.
+
+
+## Features
+
+- Track time spent on different activities
+- Visualize time usage 
+- Integrate with Google Calendar
+- Generate reports of time usage
+
+## Setup
+
+1. Make sure you have Python installed on your system
+2. Install the required dependencies:
+   ```
+   pip install google-auth-oauthlib google-auth-httplib2 google-api-python-client
+   ```
+3. Create OAuth credentials from the Google Cloud Console
+4. Run the application:
+   ```
+   python time_tracker.py
+   ```
+
+## Requirements
+
+- Python 3.6+
+- Tkinter (comes with most Python installations)
+- Google API Python Client 
